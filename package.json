@@ -1,19 +1,32 @@
 {
   "name": "toner-handlebars",
   "version": "0.0.1",
-  "description": "",
+  "description": "Use handlebars templating engine in toner",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
-  "author": "Jan Blaha",
+  "author": {
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
   "license": "MIT",
+  "keywords": [
+    "toner",
+    "jsreport",
+    "handlebars"
+  ],
+  "homepage": "https://github.com/jsreport/toner-handlebars",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/toner-handlebars.git"
+  },
   "dependencies": {
-    "handlebars": "^3.0.3",
-    "node-jsrender": "^1.0.6"
+    "handlebars": "3.0.3",
+    "node-jsrender": "1.0.6"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "mocha": "2.2.5",
+    "should": "6.0.3"
   }
 }
