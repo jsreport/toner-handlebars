@@ -1,0 +1,19 @@
+{
+  "name": "toner-handlebars",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Jan Blaha",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "node-jsrender": "^1.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
