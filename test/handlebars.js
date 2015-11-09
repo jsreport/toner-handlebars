@@ -28,4 +28,9 @@ describe('handlebars', function(){
         var html = handlebars("{#image {{b}}}", null, { b : "foo"});
         html.should.be.eql("{#image foo}");
     });
+
+    it('should work with jsreport syntax in many places', function() {
+        var html = handlebars("<img src='{#image {{name}}}'/><img src='{#image {{name2}}}'/>", null, { name : "foo", name2: "bar"});
+        html.should.be.eql("<img src='{#image foo}'/><img src='{#image bar}'/>");
+    });
 });
